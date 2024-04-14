@@ -37,11 +37,26 @@ nav{
     padding: 1vw 8vw;
     align-items: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
 }
 
 nav img{
     width: 150px;
     cursor: pointer;
+}
+
+nav .navigacio{
+    display: flex;
+}
+
+#menu{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+#close{
+    display: none;
 }
 
 nav .navigacio ul{
@@ -63,7 +78,7 @@ font-weight: 500;
 transition: 0.3s ease;
 
 }
-
+nav .navigacio ul li a.active,
 nav .navigacio ul li a:hover{
 color:  #fdc93b;
 
@@ -148,13 +163,16 @@ letter-spacing: 1px;
 
 #features .features-box{
     background: #F9F9FF;
-    text-align: start;
+    text-align: center;
+    
 }
 
 #features .features-box i{
     font-size: 2.3rem;
     color: rgb(44,44,80);
-    align-items: center;
+    align-self: center;
+    margin-top: 15px;
+
 }
 
 #features .features-box h3{
@@ -162,19 +180,21 @@ letter-spacing: 1px;
     font-weight: 600;
     color: rgb(46,46,59);
     padding: 13px 0 7px 0;
+    text-align: center;
 }
 
 #features .features-box p{
     font-size: 1rem;
     font-weight: 400;
     color: rgb(70,70,87);
+   text-align: center;
     
 }
 
 /*kurzusok*/
 
 #kurzusok{
-    padding: 8vw 8vw 0 8vw;
+    padding: 8vw 8vw 8vw 8vw;
     text-align: center;
 }
 
@@ -227,7 +247,7 @@ letter-spacing: 1px;
 /*regisztracio*/
 
 #regisztracio {
-    padding: 6vw 8vw 6vw 8vw;
+    padding: 6vw 8vw 8vw 8vw;
     background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)),
     url("kepek/prog.jpg");
     width: 100%;
@@ -396,28 +416,314 @@ footer .feliratkozas a.blue:hover{
 
 }
 
-footer .copyright .links{
-    padding-top: 40px;
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+
 }
 
-footer .copyright .links i{
+footer .copyright .pro-links{
+    display: flex;
+    margin-top: 0px;
+    
+
+}
+
+footer .copyright p{
     color: #fff;
-    justify-content: space-between;
-    background-color: #334f6c;
-    padding: 13px 33px;
-    border-radius: 10px;
-    margin: 0 5px 10px 5px;
-    cursor: pointer;
-   
+}
+
+footer .copyright .pro-links i{
+   background-color: #5f7185;
+   color: #fff;
+   font-size: 34px;
+   justify-content: space-between;
+    margin-right: 5px;
+    width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer .copyright .pro-links i:hover{
+   background-color: #fdc93b;
+   color: #2c2c2c;
+}
+
+/*rolunk*/
+
+#rolunk-home{
+        background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,46,0.7)),url("kepek/prog.jpg");
+        width: 100%;
+        height: 60vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 40px;
     
 }
-footer .copyright .links i:hover{
-    color: white;
-    background-color: #334f6c;
-    transition: 0.3s ease;
+
+#rolunk-home h2{
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+
+}
+
+#rolunk-cont{
+    display: flex;
+    align-items: center;
+    padding: 8vw 8vw 2vw 8vw;
+}
+
+#rolunk-cont .rolunk-img{
+    width: 60%;
+    padding-right: 60px;
+    
+}
+
+#rolunk-cont .rolunk-img img{
+    width: 100%;
+    
+}
+#rolunk-cont .rolunk-text{
+    width: 40%;
+  
    
 }
 
-footer .copyright .links p{
-    padding-top: 80px;
+#rolunk-cont .rolunk-text h2{
+    color: #29303b;
+    padding-bottom: 15px;
+}
+
+#rolunk-cont .rolunk-text p{
+    color: #686f7a;
+    font-weight: 300;
+}
+
+#rolunk-cont .rolunk-text .rolunk-fea{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top:  30px;
+}
+
+#rolunk-cont .rolunk-text .rolunk-fea img{
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+#rolunk-cont .rolunk-text .rolunk-fea .fe-text{
+    width: 90%;
+
+}
+
+#rolunk-cont .rolunk-text .rolunk-fea .fe-text h5{
+    font-size: 15px;
+    color: #29303b;
+}
+
+#biz{
+    text-align: center;
+    padding: 8vw;
+}
+
+#biz .biz-img {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#biz .biz-img img{
+    width: 110px;
+    height: 110px;
+
+}
+
+#blog-cont{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vw;
+}
+
+#blog-cont .blogs{
+    width: 60%; 
+}
+
+#blog-cont .blogs img{
+    width: 100%;
+    border-radius: 19px;
+}
+
+#blog-cont .blogs .post{
+    padding-bottom: 60px;
+    
+}
+
+
+#blog-cont .blogs .post h3{
+    color: #29303b;
+    padding: 15px 0 10px 0;
+}
+
+#blog-cont .blogs .post p{
+    color:#757373;
+    padding-bottom: 20px ;
+}
+
+#blog-cont .blogs .post a{
+   text-decoration: none;
+   font-size: 0.9rem;
+   padding: 13px 35px;
+   background-color: rgb(21, 21, 100);
+   color: #fff;
+   border-radius: 5px;
+   font-weight: 600;
+}
+
+#blog-cont .blogs .kat{
+    width: 30%;
+}
+
+#blog-cont .kat h2{
+    padding-bottom: 7px;
+
+}
+
+#blog-cont .kat a{
+   text-decoration: none;
+   color: #757373;
+   font-weight: 500;
+   line-height: 45px;
+
+}
+
+
+@media (max-width: 1024px) {
+    nav {
+       padding: 15px 20px;
+    }
+    nav img{
+        width: 130px;
+    }
+    #menu{
+        
+        display: initial
+    }
+    
+    #close{
+        display: initial;
+        font-size: 1.6rem;
+        color: #fff;
+        padding: 20px 0 20px 20px;
+    }
+
+    nav .navigacio ul{
+        position: absolute;
+        top:0;
+        right: -220px;
+        width: 220px;
+        background-color: rgba(17,20,104,0.45);
+        backdrop-filter: blur(4.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: 0.3s ease;
+    }
+    nav .navigacio ul.active{
+        right: 0;
+    }
+
+    nav .navigacio ul li{
+        padding: 20px 0 20px 40px;
+        margin-left: 0;
+    }
+
+    nav .navigacio ul li a{
+        color: #fff;
+    }
+
+    #home{
+        padding-top: 0px;
+    }
+    
+    #home p{
+        width: 90%;
+    }
+
+    #features{
+        padding: 8vw 4vw 0 4vw;
+    }
+
+    #kurzusok{
+        padding: 8vw 4vw 0 8vw;
+    }
+    #regisztracio{
+        margin-top: 8vw;
+        padding: 6vw 4vw 6vw 4vw;
+    }
+    #regisztracio .emlekezteto .ido{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+
+    }
+
+    #rolunk-cont{
+        display: flex;
+        align-items: center;
+        padding: 8vw 4vw 2vw 4vw;
+    }
+
+    #rolunk-cont .rolunk-img{
+        padding-right: 30px;
+    }
+       
+}
+
+@media (max-width:412px) {
+    #regisztracio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #regisztracio .emlekezteto .ido{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #rolunk-cont{
+        flex-direction: column;
+
+    }
+
+    #rolunk-cont .rolunk-img{
+        width: 100%;
+        padding-right: 30px;
+    }
+    
 }
