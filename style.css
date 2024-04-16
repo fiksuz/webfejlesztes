@@ -613,14 +613,323 @@ footer .copyright .pro-links i:hover{
 
 }
 
+#blog-cont .blogpost{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#blog-cont .blogpost p{
+    text-align: justify;
+    padding-bottom: 60px !important;
+}
+
+#kurzus-lot{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8vw;
+}
+
+#kurzus-lot h3{
+    padding: 35px 0 25px 0;
+    color: #29303b;
+   
+}
+
+#kurzus-lot p{
+
+    color: #64626e;
+    text-align: justify;
+}
+
+#kurzus-lot hr{
+    height: 1px;
+    background: rgba(236,226,229,0.5);
+    margin-top: 40px;
+}
+
+ 
+#kurzus-lot .overview{
+    width: 70%;
+
+}
+
+#kurzus-lot .overview .crs-img{
+
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+
+}
+
+#kurzus-lot .overview .crs-head{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#kurzus-lot .overview .crs-head .crs-nev{
+    width: 70%;
+}
+
+#kurzus-lot .overview .crs-head .crs-nev p{
+    color: #29303b;
+}
+
+#kurzus-lot .overview .crs-head .crs-nev .rate{
+    margin: 6px 0;
+
+}
+
+#kurzus-lot .overview .crs-head .crs-nev .rate i{
+    color: #fdc93b;
+    font-size: 0.9rem;
+}
+#kurzus-lot .overview .crs-head .crs-nev p{
+    font-size: 15px;
+}
+
+#kurzus-lot .overview .crs-head span{
+    padding: 16px 22px;
+    border-radius: 5px;
+    color:#5838fc;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: rgba(88,56,252,0.1);
+}
+
+#kurzus-lot .felsor p{
+    font-size: 15px;
+    padding-bottom: 15px;
+
+}
+
+#kurzus-lot .felsor p i{
+    color: #654ce4;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+#kurzus-lot .oktato{
+    display: flex;
+
+}
+#kurzus-lot .oktato img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+#kurzus-lot .oktato h5{
+    font-size: 15px;
+}
+
+
+#kurzus-lot .enroll{
+    width: 300px;
+    padding: 0 30px 30px 30px;
+    border-radius: 11px;
+    box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
+}
+
+#kurzus-lot .enroll h3{
+    padding-bottom: 10px;
+
+}
+
+#kurzus-lot .enroll p{
+    font-size: 15px;
+    color: #64626e;
+    margin: 15px 0;
+}
+
+#kurzus-lot .enroll p i{
+    color: #654ce4;
+    font-weight: 500;
+    margin-right: 18px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+#kurzus-lot .enroll .enroll-btn{
+    padding: 25px 0 20px 0;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#kurzus-lot .enroll .enroll-btn a{
+    text-decoration: none;
+    font-size: .8rem;
+    padding: 13px 45px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    background-color:rgb(50, 50, 136);
+
+}
+
+#contact{
+    padding: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#contact .getin{
+    width: 350px;
+}
+#contact .getin h2{
+    color: #2c234d;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: .8;
+    margin-bottom: 16px;
+}
+
+#contact .getin p{
+    color: #686875;
+    line-height: 24px;
+    margin-bottom: 33px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e5e4ed;
+}
+
+#contact .getin h3{
+    color: #2c234d;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 6px;
+    margin-bottom: 15px;
+}
+
+#contact .getin .getin-det div{
+    display: flex;
+}
+
+#contact .getin .getin-det div .get{
+    font-size: 16px;
+    line-height: 22px;
+    color: #5838fc ;
+    margin-right: 20px;
+}
+
+#contact .getin .getin-det div p{
+    font-size: 14px;
+    border-bottom: none;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+#contact .getin .getin-det  .pro-links i{
+    margin-right: 8px;
+    border: 1px solid;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .form{
+    width: 60%;
+    background-color: #f7f6fa ;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#contact .form h4{
+    font-size: 24px;
+    color: #2c234d;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+#contact .form p{
+    color: #686875;
+    line-height: 24px;
+    
+    padding-bottom: 25px;
+    
+}
+
+#contact .form .form-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+#contact .form .form-row input{
+    width: 48%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    background: white;
+    color:#7e7c87;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+
+#contact .form .form-col input,
+#contact .form .form-col textarea{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    background: white;
+    color:#7e7c87;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#contact .form button{
+    font-size: .9rem;
+    padding: 13px 25px;
+    background:rgb(21, 21, 100) ;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+#map{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 8vw;
+}
+
+#map iframe{
+    width: 100%;
+    height: 100%;
+}
+
 
 @media (max-width: 1024px) {
+
     nav {
        padding: 15px 20px;
     }
+
     nav img{
         width: 130px;
     }
+
     #menu{
         
         display: initial
@@ -696,7 +1005,25 @@ footer .copyright .pro-links i:hover{
     #rolunk-cont .rolunk-img{
         padding-right: 30px;
     }
+
+    #blog-cont .blogpost{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #blog-cont .blogpost img{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
        
+    #kurzus1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 8vw 4vw;  
+    }
 }
 
 @media (max-width:412px) {
@@ -724,6 +1051,31 @@ footer .copyright .pro-links i:hover{
     #rolunk-cont .rolunk-img{
         width: 100%;
         padding-right: 30px;
+    }
+
+
+    footer input{
+        margin-bottom: 20px;
+    }
+
+    #kurzus-lot .overview .crs-head .crs-nev{
+        width: 50%;
+    }
+
+    #kurzus-lot .overview .crs-head .crs-nev h2{
+        font-size: 22px;
+    }
+
+    #kurzus-lot .overview .crs-head span{
+        font-size: 22px;
+    }
+
+    #kurzus-lot .overview .crs-img {
+        width: 100%;
+    }
+
+    #kurzus-lot .enroll{
+        width: 100%;
     }
     
 }

@@ -19,10 +19,10 @@
         <div class="navigacio">
             <ul>
                 <i id="close" class="fa-solid fa-xmark"></i>
-                <li><a class="active" href="#">Kezdőlap</a></li>
-                <li><a href="rolunk.html">Rólunk</a></li>
+                <li><a  href="index.html">Kezdőlap</a></li>
+                <li><a   href="rolunk.html">Rólunk</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="kurzusok.html">Kurzusok</a></li>
+                <li><a class="active" href="kurzusok.html">Kurzusok</a></li>
                 <li><a href="kapcsolat.html">Kapcsolat</a></li>
 
             </ul>
@@ -35,58 +35,19 @@
 
 
     <!--Főoldal-->
-    <section id="home">
-        <h2>Üdvözöllek a Webfejlesztés Világában!</h2>
-        <p>Ha arra vágysz, hogy weboldalad olyan legyen, ami nemcsak szemet gyönyörködtető, hanem hatékony is, akkor jó helyen jársz! 
-        Célunk, hogy segítsünk neked kibontakoztatni az online jelenléted teljes potenciálját.</p>
-        <div class="btn">
-            <a class="kek" href="rolunk.html">Több infó</a>
-            <a class="pink" href="kurzusok.html">Kurzusok</a>
-        </div>    
+    <section id="rolunk-home">
+        <h2>Kurzusaink</h2>    
     </section>
 
-    <!--Features-->
-    <section id="features">
-       <h1>Miért minket válassz?</h1> 
-       <p>A weblapfejlesztés elsajátításához</p>
-        <div class="features-alap">
-            <div class="features-box">
-                <i class="fa-solid fa-users-gear"></i>
-                <h3>Tapasztalat</h3>
-                <p>Több éves tapasztalattal rendelkezünk a webfejlesztés terén,
-                így biztosak lehetünk abban, hogy projekted a legmagasabb szakmai színvonalon valósul meg.
-                </p>
-            </div> 
-            
-            <div class="features-box">
-                <i class="fa-solid fa-icons"></i>
-                <h3>Egyedi megoldások</h3>
-                <p>Nincs két egyforma vállalkozás, így nincs két egyforma megoldás sem. 
-                Tanítóink segítenek neked megérteni az egyedi igényeidet 
-                és azt, hogyan tervezhetsz és fejleszthetsz ki olyan weboldalt, amely valóban tükrözi vállalkozásod személyiségét és célcsoportod igényeit.
-                </p>
-            </div> 
-
-            <div class="features-box">
-                <i class="fa-solid fa-laptop-code"></i>
-                <h3>Online kurzusok</h3>
-                <p>
-                    Az online kurzusok lehetővé teszik számodra, 
-                    hogy saját tempódban tanulj, a saját kényelmes környezetedben. 
-                </p>
-            </div> 
-        </div>
-    </section>
 
     <!--Kurzusok-->
-
     <section id="kurzusok">
         <h1>Népszerű kurzusaink</h1> 
         <p>A legtöbbször felkeresett kurzusok</p>
         <div class="kurzus-box">
-            <div class="kurzus">
+            <div onclick="window.location.href='kurzusok/kurzus1.html';" class="kurzus">
                 <img src="kepek/java.jpg" alt="">
-                <div class="details">
+                <div  class="details">
                     <span>Frissítve 24/03/22</span>
                     <h6>JavaScript kezdőknek</h6>
                     <div class="rate">
@@ -104,7 +65,7 @@
 
             </div>
 
-            <div class="kurzus">
+            <div onclick="window.location.href='kurzusok/kurzus2.html';" class="kurzus">
                 <img src="kepek/design.jpg" alt="">
                 <div class="details">
                     <span>Frissítve 24/03/22</span>
@@ -124,7 +85,7 @@
 
             </div>
 
-            <div class="kurzus">
+            <div onclick="window.location.href='kurzusok/kurzus3.html';" class="kurzus">
                 <img src="kepek/css.jpg" alt="">
                 <div class="details">
                     <span>Frissítve 24/03/22</span>
@@ -144,7 +105,7 @@
 
             </div>
 
-            <div class="kurzus">
+            <div onclick="window.location.href='kurzusok/kurzus4.html';" class="kurzus">
                 <img src="kepek/php (1).jpg" alt="">
                 <div class="details">
                     <span>Frissítve 24/03/22</span>
@@ -164,7 +125,7 @@
 
             </div>
 
-            <div class="kurzus">
+            <div onclick="window.location.href='kurzusok/kurzus5.html';" class="kurzus">
                 <img src="kepek/python.jpg" alt="">
                 <div class="details">
                     <span>Frissítve 24/03/22</span>
@@ -184,7 +145,7 @@
 
             </div>
 
-            <div class="kurzus">
+            <div onclick="window.location.href='kurzusok/kurzus6.html';" class="kurzus">
                 <img src="kepek/marketing.jpg" alt="">
                 <div class="details">
                     <span>Frissítve 24/03/22</span>
@@ -203,45 +164,75 @@
                 </div>
 
             </div>
-        </div>
 
-    </section>
+            <div onclick="window.location.href='kurzusok/kurzus7.html';" class="kurzus">
+                <img src="kepek/keret.jpg" alt="">
+                <div class="details">
+                    <span>Frissítve 24/03/22</span>
+                    <h6>Webes keretrendszerek</h6>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(238)</span>
+                    </div>
+                    <div class="ar">
+                       70 000Ft
+                    </div>
+                </div>
 
-    <!--regisztracio-->
-    <section id="regisztracio">
-        <div class="emlekezteto">
-            <p>Szerezz meg több ingyenes kurzust</p>
-            <h1>Regisztrálj, hogy megszerezhesd</h1>
-            <div class="ido">
-                <div class="date">
-                    18 <br> Nap
+            </div>
+
+            <div onclick="window.location.href='kurzusok/kurzus8.html';" class="kurzus">
+                <img src="kepek/full.png" alt="">
+                <div class="details">
+                    <span>Frissítve 24/03/22</span>
+                    <h6>Teljes stack fejlesztés kurzusok</h6>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(238)</span>
+                    </div>
+                    <div class="ar">
+                       70 000Ft
+                    </div>
                 </div>
-                <div class="date">
-                    28 <br> Óra
+
+            </div>
+
+            <div onclick="window.location.href='kurzusok/kurzus9.html';" class="kurzus">
+                <img src="kepek/back.jpg" alt="">
+                <div class="details">
+                    <span>Frissítve 24/03/22</span>
+                    <h6>Backend fejlesztés kurzusok </h6>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(238)</span>
+                    </div>
+                    <div class="ar">
+                       70 000Ft
+                    </div>
                 </div>
-                <div class="date">
-                    08 <br> Perc
-                </div>
-                <div class="date">
-                    30 <br> Másodperc
-                </div>
+
             </div>
         </div>
 
-
-        <div class="form">
-            <h3>Regisztrálj új fiókot</h3>
-            <input type="text" placeholder="Felhasználónév" name="" id="">
-            <input type="text" placeholder="Email" name="" id="">
-            <input type="text" placeholder="Telefonszám" name="" id="">
-            <input type="text" placeholder="Jelszó" name="" id="">
-            <div class="btn">
-                <a class="purple" href="#">Regisztráció</a>
-                
-                
-            </div> 
-        </div>
     </section>
+
+   
+
+
+
+
 
     <!--footer-->
 
