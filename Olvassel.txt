@@ -1,0 +1,20 @@
+##WebDev Weboldal
+
+Egy egyszerű Weboldal amit a VS code segítségével írtam.
+
+##Szükséges link:
+-Git repository:https://github.com/fiksuz/webfejlesztes
+
+##Telepítés:
+-Töltsd vagy klónozd le a repositoryt / töltsd le a programot tartalmazó zip fájlt a gépre.
+-NYisd me a projekt mappáját a VS code-ban.
+
+##Futtatás:
+-Telepítsd a Live Server bővítményt a Visual Studio Code-ban (ezt csak abban az esetben ha ez eddig nem történt volna meg).
+-Kattints jobb egérgombbal az `index.html` fájlra.
+-Válaszd ki a "Open with Live Server" lehetőséget a megjelenő menüből.
+
+Ezek után az oldal automatikusan meg fog nyílni az alapméretezett böngészőben.
+
+##Használat:
+-Mivel az oldal főképp szemléltetésre szolgál a használata egyszerű csupán a menüpontok és egyéb gombok segítségével kell lépkedni az oldalak között.
